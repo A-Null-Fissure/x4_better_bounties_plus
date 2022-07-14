@@ -4,7 +4,7 @@
     <component ref="ishield_arg_s_fighter_01_a" />
     <properties>
       <identification name="{6699,13001}" />
-      <recharge max="750" rate="55" delay="0" />
+      <recharge max="1500" rate="75" delay="0" />
       <hull integrated="1" />
     </properties>
   </macro>
