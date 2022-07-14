@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> 
+
+	<replace sel="/defaults/dataset[20]/properties[1]/relation[1]/police[1]">
+		<police bounty="10400000"/>
+	</replace>
+	<replace sel="/defaults/dataset[21]/properties[1]/relation[1]/police[1]">
+		<police bounty="6200000"/>
+	</replace>
+	<replace sel="/defaults/dataset[22]/properties[1]/relation[1]/police[1]">
+		<police bounty="2240000"/>
+	</replace>
+	<replace sel="/defaults/dataset[23]/properties[1]/relation[1]/police[1]">
+		<police bounty="300000"/>
+	</replace>
+	<replace sel="/defaults/dataset[@class='ship_xs']/properties/relation/police[1]/@bounty">120000</replace>
+	<replace sel="/defaults/dataset[@class='spacesuit']/properties/relation/police[1]/@bounty">120000</replace>
+
+</diff>
